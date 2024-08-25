@@ -1,8 +1,7 @@
 // src/services/postService.js
 import axios from "axios";
 
-const API_URL = "/posts";
-
+const API_URL = "http://localhost:5000/posts";
 
 export const getPosts = async () => {
   try {
