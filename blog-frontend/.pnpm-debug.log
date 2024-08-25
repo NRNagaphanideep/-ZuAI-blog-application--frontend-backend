@@ -1,0 +1,353 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "blogph",
+      "version": "0.1.0",
+      "private": true,
+      "dependencies": {
+        "@testing-library/jest-dom": "^5.17.0",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "axios": "^1.7.5",
+        "dotenv": "^16.4.5",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-router-dom": "^6.26.1",
+        "react-scripts": "5.0.1",
+        "web-vitals": "^2.1.4"
+      },
+      "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+      },
+      "eslintConfig": {
+        "extends": [
+          "react-app",
+          "react-app/jest"
+        ]
+      },
+      "browserslist": {
+        "production": [
+          ">0.2%",
+          "not dead",
+          "not op_mini all"
+        ],
+        "development": [
+          "last 1 chrome version",
+          "last 1 firefox version",
+          "last 1 safari version"
+        ]
+      },
+      "devDependencies": {
+        "@babel/core": ">=7.0.0-0 <8.0.0",
+        "@babel/plugin-syntax-flow": "^7.14.5",
+        "@babel/plugin-transform-react-jsx": "^7.14.9",
+        "@testing-library/dom": ">=7.21.4",
+        "typescript": ">=3.2.1 <4.0.0 || >=4.0.0 <5.0.0"
+      }
+    },
+    "prefix": "/home/theia/blogph"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": true,
+    "storeDir": "/home/theia/.pnpm-store/v3",
+    "virtualStoreDir": "/home/theia/blogph/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/home/theia/blogph",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/core/7.25.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@babel/core",
+      "rawSpec": ">=7.0.0-0 <8.0.0"
+    }
+  },
+  "5 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/plugin-syntax-flow/7.24.7",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@babel/plugin-syntax-flow",
+      "rawSpec": "^7.14.5"
+    }
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@babel/plugin-transform-react-jsx/7.25.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@babel/plugin-transform-react-jsx",
+      "rawSpec": "^7.14.9"
+    }
+  },
+  "7 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@testing-library/dom/8.20.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@testing-library/dom",
+      "rawSpec": ">=7.21.4"
+    }
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/typescript/4.9.5",
+    "wanted": {
+      "dependentId": ".",
+      "name": "typescript",
+      "rawSpec": ">=3.2.1 <4.0.0 || >=4.0.0 <5.0.0"
+    }
+  },
+  "9 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@testing-library/jest-dom/5.17.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@testing-library/jest-dom",
+      "rawSpec": "^5.17.0"
+    }
+  },
+  "10 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@testing-library/react/13.4.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@testing-library/react",
+      "rawSpec": "^13.4.0"
+    }
+  },
+  "11 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@testing-library/user-event/13.5.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@testing-library/user-event",
+      "rawSpec": "^13.5.0"
+    }
+  },
+  "12 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/axios/1.7.5",
+    "wanted": {
+      "dependentId": ".",
+      "name": "axios",
+      "rawSpec": "^1.7.5"
+    }
+  },
+  "13 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/dotenv/16.4.5",
+    "wanted": {
+      "dependentId": ".",
+      "name": "dotenv",
+      "rawSpec": "^16.4.5"
+    }
+  },
+  "14 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/react/18.3.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "react",
+      "rawSpec": "^18.3.1"
+    }
+  },
+  "15 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/react-dom/18.3.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "react-dom",
+      "rawSpec": "^18.3.1"
+    }
+  },
+  "16 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/react-router-dom/6.26.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "react-router-dom",
+      "rawSpec": "^6.26.1"
+    }
+  },
+  "17 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/react-scripts/5.0.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "react-scripts",
+      "rawSpec": "5.0.1"
+    }
+  },
+  "18 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/web-vitals/2.1.4",
+    "wanted": {
+      "dependentId": ".",
+      "name": "web-vitals",
+      "rawSpec": "^2.1.4"
+    }
+  },
+  "19 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@babel/core/7.25.2",
+    "requester": "/home/theia/blogph",
+    "status": "found_in_store"
+  },
+  "20 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@babel/core/7.25.2",
+    "requester": "/home/theia/blogph",
+    "status": "resolved"
+  },
+  "21 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@babel/plugin-syntax-flow/7.24.7",
+    "requester": "/home/theia/blogph",
+    "status": "found_in_store"
+  },
+  "22 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@babel/plugin-syntax-flow/7.24.7",
+    "requester": "/home/theia/blogph",
+    "status": "resolved"
+  },
+  "23 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@babel/plugin-transform-react-jsx/7.25.2",
+    "requester": "/home/theia/blogph",
+    "status": "found_in_store"
+  },
+  "24 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@babel/plugin-transform-react-jsx/7.25.2",
+    "requester": "/home/theia/blogph",
+    "status": "resolved"
+  },
+  "25 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@testing-library/dom/8.20.1",
+    "requester": "/home/theia/blogph",
+    "status": "found_in_store"
+  },
+  "26 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@testing-library/dom/8.20.1",
+    "requester": "/home/theia/blogph",
+    "status": "resolved"
+  },
+  "27 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/typescript/4.9.5",
+    "requester": "/home/theia/blogph",
+    "status": "found_in_store"
+  },
+  "28 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/typescript/4.9.5",
+    "requester": "/home/theia/blogph",
+    "status": "resolved"
+  },
+  "29 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@testing-library/jest-dom/5.17.0",
+    "requester": "/home/theia/blogph",
+    "status": "found_in_store"
+  },
+  "30 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@testing-library/jest-dom/5.17.0",
+    "requester": "/home/theia/blogph",
+    "status": "resolved"
+  },
+  "31 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@testing-library/react/13.4.0",
+    "requester": "/home/theia/blogph",
+    "status": "found_in_store"
+  },
+  "32 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@testing-library/react/13.4.0",
+    "requester": "/home/theia/blogph",
+    "status": "resolved"
+  },
+  "33 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@testing-library/user-event/13.5.0",
+    "requester": "/home/theia/blogph",
+    "status": "found_in_store"
+  },
+  "34 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@testing-library/user-event/13.5.0",
+    "requester": "/home/theia/blogph",
+    "status": "resolved"
+  },
+  "35 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/axios/1.7.5",
+    "requester": "/home/theia/blogph",
+    "status": "found_in_store"
+  },
+  "36 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/axios/1.7.5",
+    "requester": "/home/theia/blogph",
+    "status": "resolved"
+  },
+  "37 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/dotenv/16.4.5",
+    "requester": "/home/theia/blogph",
+    "status": "found_in_store"
+  },
+  "38 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/dotenv/16.4.5",
+    "requester": "/home/theia/blogph",
+    "status": "resolved"
+  },
+  "39 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/react/18.3.1",
+    "requester": "/home/theia/blogph",
+    "status": "found_in_store"
+  },
+  "40 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/react/18.3.1",
+    "requester": "/home/theia/blogph",
+    "status": "resolved"
+  },
+  "41 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/react-dom/18.3.1",
+    "requester": "/home/theia/blogph",
+    "status": "found_in_store"
+  },
+  "42 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/react-dom/18.3.1",
+    "requester": "/home/theia/blogph",
+    "status": "resolved"
+  },
+  "43 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/react-router-dom/6.26.1",
+    "requester": "/home/theia/blogph",
+    "status": "found_in_store"
+  },
+  "44 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/react-router-dom/6.26.1",
+    "requester": "/home/theia/blogph",
+    "status": "resolved"
+  },
+  "45 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/react-scripts/5.0.1",
+    "requester": "/home/theia/blogph",
+    "status": "found_in_store"
+  },
+  "46 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/react-scripts/5.0.1",
+    "requester": "/home/theia/blogph",
+    "status": "resolved"
+  },
+  "47 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/web-vitals/2.1.4",
+    "requester": "/home/theia/blogph",
+    "status": "found_in_store"
+  },
+  "48 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/web-vitals/2.1.4",
+    "requester": "/home/theia/blogph",
+    "status": "resolved"
+  },
+  "49 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "Switch is not in the npm registry, or you have no permission to fetch it.\n\nNo authorization header was set for the request.",
+    "request": {
+      "url": "https://registry.npmjs.org/Switch"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "Switch",
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmjs.org/Switch: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "pnpm: GET https://registry.npmjs.org/Switch: Not Found - 404\n    at RetryOperation._fn (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:85815:19)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    }
+  }
+}

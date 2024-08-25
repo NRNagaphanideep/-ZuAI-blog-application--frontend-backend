@@ -1,0 +1,25 @@
+.post-detail {
+  padding: 20px;
+}
+
+.post-detail-content {
+  border: 1px solid #bdc3c7;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #ecf0f1;
+}
+
+.post-detail h2 {
+  margin-top: 0;
+  font-size: 2rem;
+}
+
+.post-detail p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-weight: bold;
+}
