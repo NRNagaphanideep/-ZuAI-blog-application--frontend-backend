@@ -1,12 +1,6 @@
 // server.js
 const express = require("express");
-const cors = require('cors');
-const allowedOrigins = process.env.ALLOWED_ORIGINS || '*';
-
-app.use(cors({
-  origin: allowedOrigins.split(','),
-}));
-
+const cors = require("cors");
 const bodyParser = require("body-parser");
 const app = express();
 const port = 5000;
