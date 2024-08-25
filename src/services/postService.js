@@ -1,7 +1,7 @@
 // src/services/postService.js
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/posts";
+const API_URL = "https://phaniblogapplication.netlify.app/";
 
 export const getPosts = async () => {
   try {
