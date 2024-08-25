@@ -1,16 +1,8 @@
 /blog-api # Backend directory
-├── /models # Mongoose schemas
-│ └── Post.js # Post model
-├── /routes # API route handlers
-│ └── posts.js # Post route handlers
-├── /config # Configuration files
-│ └── db.js # MongoDB connection setup
-├── /middleware # Middleware functions
-│ └── errorHandler.js # Error handling middleware
+|---db database.db
 ├── server.js # Express server setup
 ├── package.json # Node.js dependencies and scripts
 ├── .env # Environment variables
-├── Procfile # For deployment on platforms like Heroku
 └── README.md # Backend documentation
 
 /blog-frontend # Frontend directory
