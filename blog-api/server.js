@@ -1,11 +1,6 @@
 // server.js
 const express = require("express");
-const cors = require('cors');
-
-app.use(cors({
-  origin: 'https://phaniblogapplication.netlify.app' // Replace with your actual domain
-}));
-
+const cors = require("cors");
 const bodyParser = require("body-parser");
 const app = express();
 const port = 5000;
