@@ -1,11 +1,11 @@
 // server.js
 const express = require("express");
 const cors = require('cors');
-const allowedOrigins = [process.env.FRONTEND_URL, 'http://localhost:3000'];
 
 app.use(cors({
-  origin: allowedOrigins
+  origin: 'https://phaniblogapplication.netlify.app' // Replace with your actual domain
 }));
+
 const bodyParser = require("body-parser");
 const app = express();
 const port = 5000;
